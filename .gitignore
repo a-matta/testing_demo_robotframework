@@ -1,0 +1,11 @@
+.venv/
+**/__pycache__/
+
+# app data
+instance
+
+# RobotFramework generated files
+output/
+log.html
+output.xml
+report.html

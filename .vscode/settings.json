@@ -1,0 +1,17 @@
+{
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "always"
+        },
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "editor.renderControlCharacters": true,
+    "files.exclude": {
+        "**/__pycache__": true
+    },
+    "isort.args": [
+        "--profile",
+        "black"
+    ],
+    "python.defaultInterpreterPath": ".venv/bin/python",
+}
